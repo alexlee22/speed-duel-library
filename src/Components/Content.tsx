@@ -9,7 +9,11 @@ interface ContentProps {
   reverse?: boolean;
 }
 
-export default function Content<ContentProps>({ heading, subtext, reverse }) {
+export default function ContentProps({
+  heading,
+  subtext,
+  reverse,
+}: ContentProps) {
   return (
     <section className="relative bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">

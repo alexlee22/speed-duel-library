@@ -8,7 +8,7 @@ interface HeroProps {
   subtext: string | TextProps[];
 }
 
-export default function Hero<HeroProps>({ title, subtext }) {
+export default function Hero({ title, subtext }: HeroProps) {
   return (
     <section className="relative bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
